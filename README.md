@@ -1,6 +1,6 @@
 # API To get GWP (VS Code Version)
 
-##Steps To Run
+## Steps To Run
 ### 1) Download the <a href="https://dotnet.microsoft.com/download/dotnet/3.1">.NET Core SDK </a> .
 ### 2) Clone the project-
 
@@ -63,3 +63,6 @@ The response of the API shoule be of the format
 
 where 10 and 20 are the respective averages for the lines of businesses for the country in input.
 
+To test any other file you can replace the file in the <i>Data</i> folder and its path in the <i>CSVData.cs</i> file. 
+
+<b>Make sure the headers are the same.</b>

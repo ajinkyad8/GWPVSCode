@@ -53,7 +53,7 @@ In visual studio go to <i>File-->Open-->Project/Solution</i>.
  
  In the Solution Explorer follow the following steps
  
- <i>Data-->gwpByCountry.csv(Right-Click)--->Properties<i>
+ <i>Data-->gwpByCountry.csv(Right-Click)--->Properties</i>
  
  for <b>Copy to Directory</b> select <b>Copy if newer</b>. This will make sure this file gets copied in the buil.
 

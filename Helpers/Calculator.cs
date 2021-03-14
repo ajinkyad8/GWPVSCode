@@ -7,7 +7,7 @@ namespace Galytix.WebApi.Helpers
 {
     public class Calculator
     {
-        public static double CalculateAverage(GWPData data, List<Func<GWPData, double?>> parameters)
+        public static double CalculateAverage<T>(T data, List<Func<T, double?>> parameters)
         {
             if (data == null)
             {

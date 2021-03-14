@@ -36,6 +36,10 @@ namespace Galytix.WebApi.Service
             var dictToReturn = new Dictionary<string, double>();
             foreach (var lob in input.linesOfBusiness)
             {
+                if (dictToReturn.ContainsKey(lob))
+                {
+                    continue;
+                }
                 var lobData = countryData.FirstOrDefault(x => x.LineOfBusiness == lob);
                 var avg = Calculator.CalculateAverage(lobData, funcList);
                 dictToReturn.Add(lob, avg);

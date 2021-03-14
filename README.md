@@ -1,8 +1,6 @@
 # API To get GWP 
 
-## Steps To Run (VS Code Version)
-### 1) Download the <a href="https://dotnet.microsoft.com/download/dotnet/3.1">.NET Core SDK </a> .
-### 2) Clone the project-
+### 1) Clone the project-
 
 In the repository on Github click on <b>Clone or Download</b>, then <b>Download ZIP</b> and on downloading extract it in the directory of your choice.
 
@@ -19,6 +17,9 @@ Run the following code
 
 `git clone https://github.com/ajinkyad8/GWPVSCode.git`
 
+
+## Steps To Run (VS Code Version)
+### 2) Download the <a href="https://dotnet.microsoft.com/download/dotnet/3.1">.NET Core SDK </a> .
 
 ### 3) Build the application
 
@@ -43,12 +44,12 @@ The application can be accessed on  <i>localhost:9091</i>.
 
 ## Steps To Run (Visual Studio Version)
 
-### 1) Open solution in visual studio
+### 2) Open solution in visual studio
 In visual studio go to <i>File-->Open-->Project/Solution<i>.
  
  Select the solution file and optn the project.
  
- ### 2) Ensure the CSV file is set to copy.
+ ### 3) Ensure the CSV file is set to copy.
  
  In the Solution Explorer follow the following steps
  

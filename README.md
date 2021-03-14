@@ -45,9 +45,9 @@ The application can be accessed on  <i>localhost:9091</i>.
 ## Steps To Run (Visual Studio Version)
 
 ### 2) Open solution in visual studio
-In visual studio go to <i>File-->Open-->Project/Solution<i>.
+In visual studio go to <i>File-->Open-->Project/Solution</i>.
  
- Select the solution file and optn the project.
+ Select the solution file and open the project.
  
  ### 3) Ensure the CSV file is set to copy.
  
